@@ -7,17 +7,29 @@ body
   background-image: url('../img/header-img.jpg') 
   padding: 20px 0 0 0
   &__header
-    width: 1170px
+    max-width: 1170px
     display: flex
     flex-wrap: wrap
     margin: 0 auto
     justify-content: space-between
     align-items: start
+    
 .button
   border: none
   cursor: pointer
   border-radius: 5px
   color: #fefefe
+  &__primary
+    width: 270px
+    background-image: linear-gradient(180.0deg, #a2d417 -25%, #4c9918 125%)
+    box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.2)
+    font-size: 18px
+    line-height: 1.2
+    font-weight: 700
+    padding: 20px
+    &--main
+      margin: 20px 0 0 0
+      display: none
 .header
   &__title
     width: 414px
@@ -36,8 +48,9 @@ body
     box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.2)
 .main
   &__img
+    width: 100%
     display: block
-    margin: -9px 0px 0 -27px
+    margin: -9px 0px 0 0
   &__wrap
     
     display: flex
@@ -70,7 +83,7 @@ body
     display: flex
     margin: 0 auto
     justify-content: space-between
-    max-width: 44%
+    width: 44%
     
     
   &__form
@@ -86,6 +99,7 @@ body
   font-size: 16px
   line-height: 1.2
   font-weight: 400
+  
   
   // &__bold
   //   font-weight: 700
@@ -131,14 +145,9 @@ body
     display: flex
     flex-direction: column
     width: 270px
+    
   &__button
-    width: 270px
-    background-image: linear-gradient(180.0deg, #a2d417 -25%, #4c9918 125%)
-    box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.2)
-    font-size: 18px
-    line-height: 1.2
-    font-weight: 700
-    padding: 20px
+    
 .input
   border: 1px solid #d1d1d1
   border-radius: 5px
