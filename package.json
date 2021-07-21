@@ -5,11 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
     "sass": "^1.35.2"
   },
   "devDependencies": {
     "browser-sync": "^2.27.4",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0"
   },
   "scripts": {
