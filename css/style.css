@@ -632,4 +632,7 @@ input::placeholder {
   .input__user {
     background-position: 220px;
   }
+  .input__phone {
+    background-position: 220px;
+  }
 }
