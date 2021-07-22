@@ -635,4 +635,8 @@ input::placeholder {
   .input__phone {
     background-position: 220px;
   }
+
+  .button__primary {
+    width: 250px;
+  }
 }
